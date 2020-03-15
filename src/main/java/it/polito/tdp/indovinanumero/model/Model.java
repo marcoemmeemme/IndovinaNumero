@@ -37,7 +37,7 @@ public class Model {
 		//controllo l'input
 		if(!tentativoValido(tentativo))
 		{
-			throw new InvalidParameterException("Devi inserire che non hai già messo un numero tra 1 e "+NMAX);
+			throw new InvalidParameterException("Devi inserire che non hai già messo un numero tra 1 e "+NMAX+"\n");
 		}
 			
 		this.tentativiFatti ++;
